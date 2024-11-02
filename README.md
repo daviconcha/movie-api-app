@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Movie API Project
 Welcome to the Movie API project repository! This project showcases a React application that interacts with a movie API, featuring routing, Toastify for notifications, and Axios for data fetching.
 
@@ -15,72 +16,64 @@ Notifications: Implements Toastify to display notifications to users.
 Responsive Design: The application is designed to be responsive and user-friendly.
 
 # Getting Started with Create React App
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+>>>>>>> d1bae697065cb982276a2108ce9a8d691c588843
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Movie API Project</h1>
+<p>Welcome to the Movie API project repository! This project showcases a React application that interacts with a movie API, featuring routing, Toastify for notifications, and Axios for data fetching. This project served as a study resource to learn and enhance my skills in React development.</p>
 
-## Available Scripts
+<h2>Visual Examples</h2>
+<p>Below are visual examples of the Movie API application:</p>
 
-In the project directory, you can run:
+<p>Home Page</p>
+<img src="https://github.com/user-attachments/assets/653c251b-92b4-46af-9e75-cbc29d56fc31" alt="Home Page">
 
-### `npm start`
+<p>Movie details</p>
+<img src="https://github.com/user-attachments/assets/2b4e36a2-1f58-4760-b439-1c5694fbbdd5" alt="Movie details Page">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>Favorites</p>
+<img src="https://github.com/user-attachments/assets/8bf704f3-7d93-4949-836d-b0207467e512" alt="Favorites Page">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<h2>Features</h2>
+<ul>
+    <li><strong>API Integration:</strong> Fetches movie data from an external API using Axios.</li>
+    <li><strong>Routing:</strong> Utilizes React Router for navigation between different pages.</li>
+    <li><strong>Notifications:</strong> Implements Toastify to display notifications to users.</li>
+    <li><strong>Responsive Design:</strong> The application is designed to be responsive and user-friendly.</li>
+    <li><strong>Local Storage:</strong> Stores user-selected favorites in the browser's Local Storage, allowing users to retain their selections even after refreshing the page.</li>
+    <li><strong>State Management:</strong> Uses `setState` for managing component state, ensuring dynamic updates to the interface.</li>
+    <li><strong>React Hooks:</strong> Utilizes hooks such as `useEffect` to handle side effects (like data fetching) and `useParams` to capture route parameters, making the application more interactive and functional.</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Getting Started</h2>
+<p>To start using the Movie API project:</p>
+<ol>
+    <li>Clone the repository:</li>
+    <pre><code>git clone https://github.com/daviconcha/movie-api-project.git</code></pre>
+    <li>Install Dependencies:</li>
+    <pre><code>npm install</code></pre>
+    <li>Run the Application:</li>
+    <pre><code>npm start</code></pre>
+    <li>Open your browser and navigate to <code>http://localhost:3000</code> to view the application.</li>
+    <li>Explore and Customize:</li>
+    <ul>
+        <li>Explore the project structure to understand its organization and functionality.</li>
+        <li>Customize the project as needed or use it as a learning resource.</li>
+    </ul>
+</ol>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Contributing</h2>
+<p>Contributions are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Your contributions help enhance this project for everyone.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
+</html>
