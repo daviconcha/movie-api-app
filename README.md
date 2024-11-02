@@ -7,7 +7,12 @@
 <body>
 
 <h1>Movie API Project</h1>
-<p>Welcome to the Movie API project repository! This project showcases a React application that interacts with a movie API, featuring routing, Toastify for notifications, and Axios for data fetching. This project served as a study resource to learn and enhance my skills in React development.</p>
+<p>Welcome to the Movie API project repository! This project is a simple React application designed to interact with a movie API. It includes routing, notifications via Toastify, and data fetching with Axios. The primary goal of this project was to serve as a learning playground to explore React and get familiar with its capabilities.</p>
+
+<p>Although this project is relatively basic, it has been a valuable way to dive into a new language and understand its core features. I deployed it on Netlify, allowing me to experiment with the deployment process and test the app live: <a href="https://app.netlify.com/sites/prime-flix-dc/">Prime Flix DC on Netlify</a>.</p>
+
+<p>This project has inspired me to continue my React journey.</p>
+
 
 <h2>Visual Examples</h2>
 <p>Below are visual examples of the Movie API application:</p>
