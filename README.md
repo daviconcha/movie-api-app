@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-Movie API Project
-Welcome to the Movie API project repository! This project showcases a React application that interacts with a movie API, featuring routing, Toastify for notifications, and Axios for data fetching.
-
-Visual Examples
-Below are visual examples of the Movie API application:
-
-Home Page
-
-Movie Details Page
-
-Features
-API Integration: Fetches movie data from an external API using Axios.
-Routing: Utilizes React Router for navigation between different pages.
-Notifications: Implements Toastify to display notifications to users.
-Responsive Design: The application is designed to be responsive and user-friendly.
-
-# Getting Started with Create React App
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +5,6 @@ Responsive Design: The application is designed to be responsive and user-friendl
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
->>>>>>> d1bae697065cb982276a2108ce9a8d691c588843
 
 <h1>Movie API Project</h1>
 <p>Welcome to the Movie API project repository! This project showcases a React application that interacts with a movie API, featuring routing, Toastify for notifications, and Axios for data fetching. This project served as a study resource to learn and enhance my skills in React development.</p>
