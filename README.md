@@ -28,7 +28,11 @@
     <li><strong>Routing:</strong> Utilizes React Router for navigation between different pages.</li>
     <li><strong>Notifications:</strong> Implements Toastify to display notifications to users.</li>
     <li><strong>Responsive Design:</strong> The application is designed to be responsive and user-friendly.</li>
+    <li><strong>Local Storage:</strong> Stores user-selected favorites in the browser's Local Storage, allowing users to retain their selections even after refreshing the page.</li>
+    <li><strong>State Management:</strong> Uses `setState` for managing component state, ensuring dynamic updates to the interface.</li>
+    <li><strong>React Hooks:</strong> Utilizes hooks such as `useEffect` to handle side effects (like data fetching) and `useParams` to capture route parameters, making the application more interactive and functional.</li>
 </ul>
+
 
 
 <h2>Getting Started</h2>
