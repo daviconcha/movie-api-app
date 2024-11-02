@@ -19,21 +19,21 @@ function Favoritos(){
        })
        setFilmes(filtroFilmes);
        localStorage.setItem("@primeflix", JSON.stringify(filtroFilmes));
-       toast.success("Filme excluido com sucesso!");
+       toast.success("Movie deleted successfully!");
     }
 
     return(
         <div className="meus-filmes">
-            <h1>Favoritos</h1>
-            {filmes.length === 0 && <span>nenhum filme guardado...</span>}
+            <h1>Favorites</h1>
+            {filmes.length === 0 && <span>No saved movies yet...</span>}
             <ul>
                 {filmes.map((item)=>{
                     return(
                         <li key={item.id}>
                             <span>{item.title}</span> 
                             <div>
-                                <Link to={`/filme/${item.id}`}>ver detalhes</Link>
-                                <button onClick={()=>excluirFilme(item.id)}>Excluir</button>
+                                <Link to={`/filme/${item.id}`}>details</Link>
+                                <button onClick={()=>excluirFilme(item.id)}>delete</button>
                             </div>       
                         </li>
                     );

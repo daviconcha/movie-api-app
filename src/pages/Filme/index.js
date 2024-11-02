@@ -31,7 +31,7 @@ function Filme(){
         }
         loadFilme();
         return()=>{
-            console.log("Componente foi desmontado.");      
+            //console.log("Componente foi desmontado.");      
         }
     },[navigate, id])
 
@@ -43,13 +43,13 @@ function Filme(){
         const hasFilme = filmesSalvos.some((filmesSalvo)=>filmesSalvo.id === filme.id);
         
         if(hasFilme){
-            toast.warn("Esse filme já existe na lista!");
+            toast.warn("This movie is already on the list!");
             return;
         }
 
         filmesSalvos.push(filme);
         localStorage.setItem("@primeflix", JSON.stringify(filmesSalvos));
-        toast.success("Filme salvo com sucesso!");
+        toast.success("Movie saved successfully!");
     }
 
     if(loading){
@@ -69,7 +69,7 @@ function Filme(){
             <strong>Avaliação: {filme.vote_average}/10</strong>
            
             <div className="area-buttons">
-                <button onClick={salvarFilme}>Guardar</button>
+                <button onClick={salvarFilme}>Save</button>
                 <button>
                     <a target="blank" rel="external" href={`https://youtube.com/results?search_query=${filme.title} trailer`}>Trailer</a>
                 </button>
